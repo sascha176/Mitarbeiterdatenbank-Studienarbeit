@@ -1,7 +1,7 @@
 Thema: Mitarbeiterdatenbank mit Verwaltung der Urlaubstage
 
 
----------------------Funktionsumfang der Anwendung---------------------
+Funktionsumfang der Anwendung
 Die folgende Anwendung ist eine einfache CRUD (create, read, update, delete) Anwendung, welche ich mit PDO erstellt habe.
 
 Der Funktionsumfang umfasst also die klassischen Operationen einer CRUD Anwendung, wie das Anlegen eines neuen Mitarbeiters,
@@ -17,7 +17,8 @@ Da es sich um eine Mitarbeiterverwaltung, welche zum Eintragen von Urlaubstagen 
 Urlaubstage eingetragen werden können. Jeder Mitarbeiter bekommt nach dem Anlegen direkt 30 Urlaubstage. Sind die 30 Tage Urlaub aufgebraucht, 
 kann kein Urlaub mehr eingetragen werden.
 
----------------------Anleitung zur Installation/Bedienung des Tools---------------------
+Anleitung zur  Installation
+
 Um die vorliegende Projektarbeit zum laufen zu bringen, sind folgende Schritte notwendig:
 
 1. Einen lokalen Webserver wie XAMPP installieren und einrichten.
@@ -37,7 +38,7 @@ Die rechte Spalte der Tabelle beinhaltet zudem die möglichen Operatoren, darges
 Das Flugzeug Icon ruft das Menü zum Eintragen von Urlaubstagen, das Stift-Icon zum bearbeiten und der Mülleimer zum löschen von Mitarbeitern auf.
 Das Menü in der Kopfleiste wird immer angezeigt, sodass man jederzeit auf die Startseite zurückkehren kann.
 
---------------------------------------------------------------------------------------------
+
 
 Wichtiger Hinweis beim Aktualisieren der Mitarbeiterdaten!
 
