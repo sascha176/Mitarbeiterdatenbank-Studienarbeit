@@ -28,7 +28,7 @@ Um die vorliegende Projektarbeit zum laufen zu bringen, sind folgende Schritte n
 5. In der Fehlermeldung ist der Hinweis, dass die Datenbank erst initialisiert werden muss, dazu den entsprechenden Link "Bitte erst Datenbank initialisieren" anklicken.
 6. Der Link ruft die beiligende "initdb.php" auf welche die benötigte Datenbank erstellt und mit einigen Testdaten befüllt. Mit einem Klick auf "Zur Anwendung" gelangt man nun zur eingericheten Anwendung.
 
-Zur Bedienung des Tools gibt es eigentlich nicht viel zu sagen. Das Kleine Menü im Headbereich der Anwendung hat nur zwei menüpunkte, auf einem wird ein neuer
+Zur Bedienung des Tools gibt es eigentlich nicht viel zu sagen. Das kleine Menü im Headbereich der Anwendung hat nur zwei menüpunkte, auf einem wird ein neuer
 Mitarbeiter angelegt, auf dem anderen werden alle Mitarbeiter, also quasi die Startseite angezeigt. Auch bei einem Klick auf das Logo rechts in der Ecke gelangt man wieder dort hin.
 
 Die Beiden Dropdowns dienen zum sortieren und filtern der Einträge und rechts daneben ist die Suchleiste zum Suchen nach spezifischen Mitarbeitern.
@@ -49,6 +49,5 @@ werden muss, auch wenn diese nicht verändert wurde. Leider hatte ich keine Zeit
 
 
 Anmerkung zur Bildschirmdarstellung:
-
-    Die Anwendung zeigt bis zu einer Auflösung von 1280x720 Pixeln alles soweit fehlerfrei an. 
-    Bei kleineren Bildschirmen kann es zu Anzeigefehlern kommen. Es handelt sich um keine responsive Anwendung!
+ Die Anwendung zeigt bis zu einer Auflösung von 1280x720 Pixeln alles soweit fehlerfrei an. 
+ Bei kleineren Bildschirmen kann es zu Anzeigefehlern kommen. Es handelt sich um keine responsive Anwendung!
