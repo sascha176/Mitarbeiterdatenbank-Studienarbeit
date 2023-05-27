@@ -1,7 +1,7 @@
-Thema: Mitarbeiterdatenbank mit Verwaltung der Urlaubstage
+# Thema: Mitarbeiterdatenbank mit Verwaltung der Urlaubstage
 
 
-Funktionsumfang der Anwendung
+## Funktionsumfang der Anwendung:
 Die folgende Anwendung ist eine einfache CRUD (create, read, update, delete) Anwendung, welche ich mit PDO erstellt habe.
 
 Der Funktionsumfang umfasst also die klassischen Operationen einer CRUD Anwendung, wie das Anlegen eines neuen Mitarbeiters,
@@ -17,16 +17,16 @@ Da es sich um eine Mitarbeiterverwaltung, welche zum Eintragen von Urlaubstagen 
 Urlaubstage eingetragen werden können. Jeder Mitarbeiter bekommt nach dem Anlegen direkt 30 Urlaubstage. Sind die 30 Tage Urlaub aufgebraucht, 
 kann kein Urlaub mehr eingetragen werden.
 
-Anleitung zur  Installation
+## Anleitung zur  Installation
 
 Um die vorliegende Projektarbeit zum laufen zu bringen, sind folgende Schritte notwendig:
 
-1. Einen lokalen Webserver wie XAMPP installieren und einrichten.
-2. Wenn XAMPP genutzt wird beispielsweise den Ordner "mitarbeiterdatenbank" und seinen vollständigen Inhalt in den Ordner "htdocs" hineinkopieren (standardmäßig zu finden unter: C:\xampp\htdocs).
-3. Den lokalen Webserver starten und im Browser über den localhost folgende URL aufrufen: http://localhost/mitarbeiterdatenbank/index.php.
-4. Da höchstwahrscheinlich die benötigte Datenbank "mitarbdb" noch nicht existiert, wird nun eine Fehlermeldung erscheinen.
-5. In der Fehlermeldung ist der Hinweis, dass die Datenbank erst initialisiert werden muss, dazu den entsprechenden Link "Bitte erst Datenbank initialisieren" anklicken.
-6. Der Link ruft die beiligende "initdb.php" auf welche die benötigte Datenbank erstellt und mit einigen Testdaten befüllt. Mit einem Klick auf "Zur Anwendung" gelangt man nun zur eingericheten Anwendung.
+- Einen lokalen Webserver wie XAMPP installieren und einrichten.
+- Wenn XAMPP genutzt wird beispielsweise den Ordner "mitarbeiterdatenbank" und seinen vollständigen Inhalt in den Ordner "htdocs" hineinkopieren (standardmäßig zu finden unter: C:\xampp\htdocs).
+- Den lokalen Webserver starten und im Browser über den localhost folgende URL aufrufen: http://localhost/mitarbeiterdatenbank/index.php.
+- Da höchstwahrscheinlich die benötigte Datenbank "mitarbdb" noch nicht existiert, wird nun eine Fehlermeldung erscheinen.
+- In der Fehlermeldung ist der Hinweis, dass die Datenbank erst initialisiert werden muss, dazu den entsprechenden Link "Bitte erst Datenbank initialisieren" anklicken.
+- Der Link ruft die beiligende "initdb.php" auf welche die benötigte Datenbank erstellt und mit einigen Testdaten befüllt. Mit einem Klick auf "Zur Anwendung" gelangt man nun zur eingericheten Anwendung.
 
 Zur Bedienung des Tools gibt es eigentlich nicht viel zu sagen. Das kleine Menü im Headbereich der Anwendung hat nur zwei menüpunkte, auf einem wird ein neuer
 Mitarbeiter angelegt, auf dem anderen werden alle Mitarbeiter, also quasi die Startseite angezeigt. Auch bei einem Klick auf das Logo rechts in der Ecke gelangt man wieder dort hin.
@@ -48,6 +48,6 @@ leider immer wieder auf die Abteilung "Einkauf" springt. Hier bitte darauf achte
 werden muss, auch wenn diese nicht verändert wurde. Leider hatte ich keine Zeit mehr, das entsprechend anzupassen.
 
 
-Anmerkung zur Bildschirmdarstellung:
+## Anmerkung zur Bildschirmdarstellung
  Die Anwendung zeigt bis zu einer Auflösung von 1280x720 Pixeln alles soweit fehlerfrei an. 
  Bei kleineren Bildschirmen kann es zu Anzeigefehlern kommen. Es handelt sich um keine responsive Anwendung!
